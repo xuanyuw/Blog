@@ -7,6 +7,7 @@ tags: [neuro]
 image: readMind.jpg
 ---
 <sub>Image source: https://i.imgflip.com/aj29w.jpg</sub>
+
 (This is the extended content of COGS118C (UCSD SS2 2019) Lecture 1: Exploring Brain Space)
 
 The answer is: "duh, using their eyes." Well, it's not wrong, but the true answer is a little bit complicated than that.
