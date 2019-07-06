@@ -6,7 +6,7 @@ categories: neuro
 tags: [neuro]
 image: readMind.jpg
 ---
-
+<sub>Image source: https://i.imgflip.com/aj29w.jpg</sub>
 (This is the extended content of COGS118C (UCSD SS2 2019) Lecture 1: Exploring Brain Space)
 
 The answer is: "duh, using their eyes." Well, it's not wrong, but the true answer is a little bit complicated than that.
@@ -15,6 +15,7 @@ The brain is not merely a blob in our head. What many neuroscientists care about
 Here is a summary diagram of some existing recording and visualization techniques that scientists use nowadays, I'll explain what does it mean later.
 ![techs](http://dericbownds.net/uploaded_images/bigdata.png)
 <sub>Image Source: http://dericbownds.net/uploaded_images/bigdata.png</sub>
+
 In this post, I'll briefly introduce fMRI, PET, EEG, MEG, and Single units recording.
 
 ### fMRI and PET
@@ -22,6 +23,7 @@ In this post, I'll briefly introduce fMRI, PET, EEG, MEG, and Single units recor
 When I say the word brain activity image, does the first figure that pop out of your mind look like this?
 <img src='https://4cy9nx1nwb4f3giw7x37lcaw-wpengine.netdna-ssl.com/wp-content/uploads/sites/10/2018/12/fmri_1136518.jpg'  width="450" height="300">
 <sub>Image source: https://4cy9nx1nwb4f3giw7x37lcaw-wpengine.netdna-ssl.com/wp-content/uploads/sites/10/2018/12/fmri_1136518.jpg</sub>
+
 That's fMRI(Functional magnetic resonance imaging). But why it is called **functional** imaging? Because there are anatomical images, which shows the structure of the tissue, and functional images, which indicate the change in a specific range over time. So the image above is actually a functional image on top of an anatomical image.
 
 When we are "thinking" really hard using one specific region of the brain, the oxygenated blood would be more concentrated there to make sure the brain activity is well supported, and magnetic property of that region changes accordingly. And we call this change blood-oxygen-level-dependent(BOLD) signal.
@@ -36,6 +38,7 @@ EEG stands for Electroencephalogram. It is a widely used non-invasive technique 
 I participated in an EEG study once. The procedure was pretty simple: they first put a "fishnet" cap on my head. Something looks like this:
 <img src='https://publications.clas.ufl.edu/wp-content/uploads/2018/02/Lester_101117_1204_large.jpg'  width="450" height="300">
 <sub>Image Source: https://publications.clas.ufl.edu/wp-content/uploads/2018/02/Lester_101117_1204_large.jpg</sub>
+
 And then they would connect the wires and inject a type of gel into each little circle on the cap (takes a long time). Then Boom, you have it! Your brain waves are on the computer screen. Tbh, I thought this experience was really awesome, except for cleaning the gel from my hair.
 
 Because the voluntary movements are controlled by your brain, your brain wave will look different when you are doing or thinking about different things, including blinking eyes and wondering what's for dinner. All of those changes show up in the EEG data, which means your brain activities get recorded almost instantly. Therefore, in the diagram, EEG is at the very front of the x-axis, in other words, it has a very high time resolution (from several milliseconds to several seconds).
