@@ -11,7 +11,7 @@ menu:
 - {name: 'Neuroscience', folder: 'pages', file: 'neuroSci.html'}
 #- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
 - {name: 'Random Content', folder: 'pages', file: 'random.html'}
-- {icon: 'envelope', folder: 'pages', file: 'contact.html'}
+#- {icon: 'envelope', folder: 'pages', file: 'contact.html'}
 #- {name: 'About', folder: 'pages', file: 'about.html'}
 #- {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
