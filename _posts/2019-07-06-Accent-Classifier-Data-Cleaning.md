@@ -83,7 +83,7 @@ mandarinBio = mandarinBio.drop('Unnamed: 0', axis = 1).reset_index(drop = True)
 mandarinBio.head()
 ~~~~
 
-![mandarinBio](./20190706_data_cleanning_img/mandarinbio.png)
+<img src = './20190706_data_cleanning_img/mandarinbio.png'>
 
 Now the data is still quite messy to work with, becuase age and sex were put togeter, and there are useless 'years' in length of english residence. So let's get rid of those.
 
@@ -123,9 +123,9 @@ addNumYears(englishBio)
 
 Now the DataFrames look like this:
 Mandarin:
-![mandafter](./20190706_data_cleanning_img/mandarinafter.png)
+<img src = './20190706_data_cleanning_img/mandarinafter.png'>
 English:
-![engafter](./20190706_data_cleanning_img/englishafter.png)
+<img src = './20190706_data_cleanning_img/englishafter.png'>
 
 And for english speakers, the ideal is 'native' native speaker (monolingual), so we pick them out.
 
@@ -154,16 +154,16 @@ English learning time:
 ~~~~python
 overlayDistr('length of english learning')
 ~~~~
-![englishlearning](./20190706_data_cleanning_img/englishlearning.png)
+<img src = './20190706_data_cleanning_img/englishlearning.png>
 
 English-speaking country resident time:
-![englishresident](./20190706_data_cleanning_img/resident.png)
+<img src = './20190706_data_cleanning_img/resident.png>
 
 English onset age:
-![englishonset](./20190706_data_cleanning_img/onset.png)
+<img src = './20190706_data_cleanning_img/onset.png>
 
 I can't help noticing that in the first two distribution, the plots of native speaker have very long tails, so let's see the age distribution
-![age](./20190706_data_cleanning_img/age.png)
+<img src = './20190706_data_cleanning_img/age.png>
 
 So it looks like we do have more elderly in native speaker group. I heard that voice could change as people age. Though I'm not sure it will affect our result or not, I'll keep the age range roughly the same just to be safe. (We have way too many english samples anyways)
 
@@ -172,9 +172,9 @@ englishBio = englishBio[englishBio['age'] < max(mandarinBio['age'])]
 ~~~~
 
 Let's see the distributions now.
-![learningafter](./20190706_data_cleanning_img/learningafter.png)
-![residenceafter](./20190706_data_cleanning_img/residenceafter.png)
-![ageafter](./20190706_data_cleanning_img/ageafter.png)
+<img src = './20190706_data_cleanning_img/learningafter.png'>
+<img src = './20190706_data_cleanning_img/residenceafter.png'>
+<img src = './20190706_data_cleanning_img/ageafter.png'>
 
 Looks a teeny-tiny bit better. But now we only have 116 mandarin speaker samples and 133 native speaker samples. (I cry.)
 
