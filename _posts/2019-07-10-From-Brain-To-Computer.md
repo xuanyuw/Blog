@@ -37,6 +37,7 @@ That is the basic idea of sampling in ADC. The other things are pretty clear by 
 
 The following question would be: how fast should I sample? Well, it actually varies from dataset to dataset. But there's a theorem called **Nyquist Sampling Theorem** that set the baseline for sampling:
 > To accurately represent a periodic signal/process with an intrinsic frequency B, you have to sample at least twice as fast.
+
 Note here, the sampling rate can only be strictly greater than 2B, because if you sample at the rate: fs = B, you'll probably get the same thing over and over again:
 ![1bsample](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/1bsample.png)
 Likewise, if you sample at fs = 2B, you may be very lucky and miss all the signals (the straight line in the middle).
