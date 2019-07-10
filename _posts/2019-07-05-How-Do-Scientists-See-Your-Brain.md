@@ -8,7 +8,7 @@ image: readMind.jpg
 ---
 <sub>Image source: https://i.imgflip.com/aj29w.jpg</sub>
 
-(This is the extended content of COGS118C (UCSD SS2 2019) Lecture 1: Exploring Brain Space)
+(This is the extended content of COGS118C (UCSD SS2 2019) Lecture 2: Exploring Brain Space)
 
 The answer is: "duh, using their eyes." Well, it's not wrong, but the true answer is a little bit complicated than that.
 The brain is not merely a blob in our head. What many neuroscientists care about is why the brain can do so many amazing things. Therefore, they often need to see how brain cells interact with each other and respond to stimuli, etc.. But those are often not observable through naked eyes (the brains rest in our skulls anyways), so we need to measure them using various technologies.
