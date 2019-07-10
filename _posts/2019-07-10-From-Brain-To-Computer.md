@@ -22,18 +22,18 @@ I really like this figure, because it makes the concept of ADC so much easier.
 
 Now let's look at the horizontal lines of the grid. You must notice there are something called "A/D Levels" at the very right of this figure. What does that mean? Essentially, A/D levels determine how big of the amplitude your A/D converter can take. As the figure shows, you draw a line at each level, then you capture the signal points that fall onto the lines.
 ![A/Dlevels](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/adlevels.png)
-The number of levels you have depends on the number of bits you use in you ADC. The equation looks like this: **# of levels for n-bits ADC = $2^n$**. For example, if you have 8 bits in your ADC, then you'll have $2^8 = 256$ levels. But you cannot just randomly decide how many bits you are gonna use in your ADC, because poor choices leads to poor results. For example:
+The number of levels you have depends on the number of bits you use in you ADC. The equation looks like this: **# of levels for n-bits ADC = 2^n**. For example, if you have 8 bits in your ADC, then you'll have 2^8 = 256 levels. But you cannot just randomly decide how many bits you are gonna use in your ADC, because poor choices leads to poor results. For example:
 ![Saturation](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/saturation.png)
 This overflow of signal is very bad, because we cannot capture this, the digitized signal would be distorted (basically becomes a flat line at the top). Trust me nobody wants this in their data. This situation (of course it has an official name) is called **Saturation**.
 
-The other thing to consider is how big is the space between each horizontal line. In other words, what is the smallest change you can capture? And this is called the **Resolution** of your ADC. Here's the equation: **resolution = $\frac{range}{number of levels} = \frac{range}{2^number of bits}$**. And the range is just simply the range of your signal's amplitude (in EEG's case, voltage).
+The other thing to consider is how big is the space between each horizontal line. In other words, what is the smallest change you can capture? And this is called the **Resolution** of your ADC. Here's the equation: **resolution = range/number of levels = range/2^number of bits**. And the range is just simply the range of your signal's amplitude (in EEG's case, voltage).
 
 Let's look at the vertical lines of the grid.
 ![time](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/time.png)
 Each line represent a sampling timestamp. I love the analogy of ADC clock from my instructor:
 > Imagine a metronome clicking. Every time it clicks, you jot dow the value of the signal.
 
-That is the basic idea of sampling in ADC. The other things are pretty clear by now: the **Sampling Frequency/Rate (fs)** is just the number of sample you take per second, measured in Hz ($ = /frac{1}{sec}$) And the **Sample interval** in the figure above is just the time you wait before next sample (**$ = \frac{1}{fs}$**)
+That is the basic idea of sampling in ADC. The other things are pretty clear by now: the **Sampling Frequency/Rate (fs)** is just the number of sample you take per second, measured in Hz (= 1/sec) And the **Sample interval** in the figure above is just the time you wait before next sample (**= 1/fs**)
 
 The following question would be: how fast should I sample? Well, it actually varies from dataset to dataset. But there's a theorem called **Nyquist Sampling Theorem** that set the baseline for sampling:
 > To accurately represent a periodic signal/process with an intrinsic frequency B, you have to sample at least twice as fast.
