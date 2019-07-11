@@ -24,7 +24,7 @@ Now let's look at the horizontal lines of the grid. You must notice there are so
 ![A/Dlevels](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/adlevels.png)
 The number of levels you have depends on the number of bits you use in you ADC. The equation looks like this: **# of levels for n-bits ADC = 2^n**. For example, if you have 8 bits in your ADC, then you'll have 2^8 = 256 levels. But you cannot just randomly decide how many bits you are gonna use in your ADC, because poor choices leads to poor results. For example:
 ![Saturation](https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190710_digitization_img/saturation.png)
-This overflow of signal is very bad, because we cannot capture this, the digitized signal would be distorted (basically becomes a flat line at the top). Trust me nobody wants this in their data. This situation (of course it has an official name) is called **Saturation**.
+This overflow of signal is very bad, because we cannot capture this, the digitized signal would be distorted (basically becomes a flat line at the top). Trust me nobody wants this in their data. This situation (of course it has an official name) is called **Saturation**. And this phenomenon is also called **aliasing**, meaning the signal is distorted and we cannot distinguish different signals in the distorted section.
 
 The other thing to consider is how big is the space between each horizontal line. In other words, what is the smallest change you can capture? And this is called the **Resolution** of your ADC. Here's the equation: **resolution = range/number of levels = range/2^number of bits**. And the range is just simply the range of your signal's amplitude (in EEG's case, voltage).
 
