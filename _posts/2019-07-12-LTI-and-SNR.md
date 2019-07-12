@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How do you know when something is too annoying?"
+title: "How do you know when something is too annoying? --Signal to Noise Ratio"
 author: "Xuanyu Wu"
 categories: neuro
 tags: [neuro]
