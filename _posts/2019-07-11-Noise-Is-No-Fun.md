@@ -8,7 +8,7 @@ image: noise.jpg
 ---
 <sub>Image source: https://imgflip.com/i/2sn1rp</sub>
 
-(This is the extended content of COGS118C (UCSD SS2 2019) Lecture 4: Noise & ERP)
+(This is the content of COGS118C (UCSD SS2 2019) Lecture 4: Noise & ERP)
 
 Noise is everywhere. Of course there are also A LOT of noise in our brain recordings. In this article, I'll talk about the major noises in brain recordings.
 

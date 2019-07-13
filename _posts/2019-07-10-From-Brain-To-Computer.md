@@ -9,7 +9,7 @@ image: Digital-Transformation.png
 
 <sub>Image Source: http://luman.io/meaning-not-mechanics%E2%80%8A-%E2%80%8Aa-human-approach-organizational-transformation/digital-transformation/</sub>
 
-(This is the extended content of COGS118C (UCSD SS2 2019) Lecture 3: Time Series, Digitalization & Sampling)
+(This is the content of COGS118C (UCSD SS2 2019) Lecture 3: Time Series, Digitalization & Sampling)
 
 You must have seen some kind of biomedical signals somewhere: whether it is electrocardiogram (ECG) in some sort of medical TV series or the signal wave in EEG data. These wiggle lines all have the same property: they are **analog**, meaning they are **continuous in both time and amplitude**. But we know the computer stores data points, which are discrete, meaning they are separate from each other. There are countless points in a continuous line, so clearly if you store all the data into your computer, it would explode.
 
