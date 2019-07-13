@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How do you know when something is too annoying? --Signal to Noise Ratio"
+title: "Noise Detox: Event-related experimental design and analysis"
 author: "Xuanyu Wu"
 categories: neuro
 tags: [neuro]
