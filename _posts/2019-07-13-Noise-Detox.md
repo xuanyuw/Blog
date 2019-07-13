@@ -28,7 +28,7 @@ Very cool huh? But in order to do this, we need to make some assumptions just li
 
 With that being said, averaging over N trials maintains signal rms while decreasing noise root mean square(rms), because noise is independent.
 
-<div style="text-align:center"><img src='https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190713_event_related_img/signalandnoise.png', width = '320'></div>
+<div style="text-align:center"><img src='https://raw.githubusercontent.com/xuanyuw/Blog/gh-pages/_posts/20190713_event_related_img/signalandnoise.png' width = '320'></div>
 
 Recall the equation of SNR:
 
