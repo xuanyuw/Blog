@@ -31,7 +31,7 @@ When we are "thinking" really hard using one specific region of the brain, the o
 
 As fMRI, PET also uses blood flow as an indicator, but it requires a little bit of radioactive indicator in your vein before hand, so the blood flow can be traced down (don't worry, this is nothing like Chernobyl).
 
-These blood-flow based techniques can detect the activity of a large region, but impossible to see the activity of single cells. And since blood flow is an indirect indicator, they are not as instant as the techniques I'm going to talk about below.
+These blood-flow based techniques can detect the activity of a large region, but impossible to see the activity of single cells. And since blood flow is an indirect indicator, they are not as instant as the techniques I'm going to talk about below. The low time-resolution property can bring some trouble when we trying to use it to detect higher frequency signals. Take fMRI for example, it's time range (as we can see in the graph in the beginning) is no less than few seconds, which means the frequency range you are going to detect probably should be only between 0.01 - 0.1Hz. Anything above that could be contaminated with noise.
 
 ### EEG
 EEG stands for Electroencephalogram. It is a widely used non-invasive technique to record brain waves. What does non-invasive means? it simply means scientists don't need to shave your head and cut your skull open to conduct the experiment. This is also why EEG is so popular.
