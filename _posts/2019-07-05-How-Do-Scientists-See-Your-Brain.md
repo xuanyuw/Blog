@@ -4,7 +4,7 @@ title: "How Do Scientists See Your Brain"
 author: "Xuanyu Wu"
 categories: neuro
 tags: [neuro]
-image: readMind.jpg
+
 ---
 <sub>Image source: https://i.imgflip.com/aj29w.jpg</sub>
 
